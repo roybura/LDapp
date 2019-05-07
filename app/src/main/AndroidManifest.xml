@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anggarisky.wordmatters">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HowToPlay"></activity>
+        <activity android:name=".Teach_1" />
+        <activity android:name=".DetailReport" />
+        <activity android:name=".Match3" />
+        <activity android:name=".Match2" />
+        <activity android:name=".Match1" />
+        <activity android:name=".Choosing" />
+        <activity android:name=".TeacherMode" />
+        <activity android:name=".signUp" />
+        <activity android:name=".LoginSignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Finish"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seek"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push8"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".NextPage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Push1"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
